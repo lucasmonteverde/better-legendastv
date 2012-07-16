@@ -1,0 +1,32 @@
+/* body{margin: 0 auto;width: 1214px;} */
+
+#conteudodest > div > div:last-child{clear:both!important;}
+
+
+#conteudodest > div > div,
+#rcont,
+#maisbaixados{width:auto!important;height:100%!important;overflow: auto!important;}
+
+#maisbaixados{margin: 10px 0;}
+
+.topdsetad, .topdsetae, .quebra{display:none;}
+
+
+.ldestaque {height:125px!important;overflow: hidden;margin: 1px!important;}
+.destrlsb{height:28px!important;}
+
+body > table{width:100%!important;}
+body > table table~table{width:98%!important;}
+
+body > table > tbody > tr > td ~ td{display:none;}
+
+table[width="400"]{width:98%!important}
+
+
+
+/* #conteudodest div:nth-child(4){width:auto!important;} */
+/* #conteudodest div[align="center"]{clear:both!important;} */
+
+@media screen and (min-width: 1220px) {
+	body{margin: 0 auto!important;width: 1124px!important;}
+}

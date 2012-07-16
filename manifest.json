@@ -1,0 +1,14 @@
+{
+	"name": "Better Legendas.tv",
+	"description": "Otimiza\u00e7\u00f5es e melhorias para o site legendas.tv",
+	"version": "0.2",
+	"manifest_version": 2,
+	"permissions": ["tabs"],
+	"content_scripts": [
+		{
+			"matches": ["http://*.legendas.tv/*"],
+			"js": ["legendas.js"],
+			"css": ["style.css"]
+		}
+	]
+}
